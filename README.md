@@ -1,6 +1,6 @@
-# Shopify for Franz/Ferdi
+# Shopify Store Admin for Franz/Ferdi
 
-This is an unofficial Franz/Ferdi recipe for Shopify.
+This is an unofficial Franz/Ferdi recipe for a Shopify store admin.
 
 The badge on the service icon will show the number of open orders.
 
