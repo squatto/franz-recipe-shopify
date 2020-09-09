@@ -6,7 +6,7 @@
   "main": "index.js",
   "author": "Scott Carpenter <scott@payforstay.com>",
   "license": "MIT",
-  "repository": "https://github.com/squatto/ferdi-recipe-shopify",
+  "repository": "https://github.com/squatto/franz-recipe-shopify",
   "config": {
     "serviceURL": "https://{teamId}.myshopify.com/admin",
     "hasTeamId": true,
