@@ -1,0 +1,15 @@
+{
+  "id": "shopify",
+  "name": "Shopify",
+  "version": "1.0.0",
+  "description": "Shopify",
+  "main": "index.js",
+  "author": "Scott Carpenter <scott@payforstay.com>",
+  "license": "MIT",
+  "repository": "https://github.com/squatto/ferdi-recipe-shopify",
+  "config": {
+    "serviceURL": "https://{teamId}.myshopify.com/admin",
+    "hasTeamId": true,
+    "urlInputSuffix": ".myshopify.com"
+  }
+}
