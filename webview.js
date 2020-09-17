@@ -16,7 +16,7 @@ module.exports = Franz => {
     // if it's present, we are logged out and Shopify is asking us to select our account to log back in
     const heading = document.querySelector('h1.ui-heading');
 
-    if (heading !== undefined && heading.textContent === 'Choose an account') {
+    if (heading && heading.textContent === 'Choose an account') {
       // we're logged out and the account selection screen is showing
       console.log('Logged out');
       console.log('Checking for an account to log into');
@@ -24,7 +24,7 @@ module.exports = Franz => {
       // find the first account link
       const link = document.querySelector('a.account-picker__item');
 
-      if (link !== undefined) {
+      if (link) {
         // click the account link to log us back in
         console.log('Found an account to log into');
         console.log('Clicking the account link...');
